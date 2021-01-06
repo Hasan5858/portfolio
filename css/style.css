@@ -150,6 +150,7 @@ body {
 /* Work Section End */
 
 /* Inquiry Part Start */
+
 .inquiry-part{
     margin-top: 85px;
     margin-bottom: 85px;
@@ -186,6 +187,7 @@ body {
     right: -780px;
 }
 /* Inquiry Part End */
+
 /* Skill Part Css Start */
 .container{
     width: 50%;
@@ -257,6 +259,123 @@ body {
     width: calc(100% - 10px);
   }
 /* Skill Part Css End */
-/* Our Team Part css Start */
+/* My Resume Part css Start */
+.half-width-control{
+    background-color: #f6f7fe;
+    height: 900px;
+}
+.half-width{
+    width: 38%;
+    float: left;
+    padding-left: 8%;
+}
+.section-title{
+    font-size: 38px;
+    text-align: center;
+    line-height: 1;
+    margin-bottom: 60px;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+}
+.section-title{
+    padding-top: 30px;
+}
+.block-title h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+.timeline {
+    border-left: 1px solid #caa847;
+    padding: 15px 0;
+}
+.timeline-item {
+    position: relative;
+    padding: 15px 20px 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #f6f7fe;
+    border-left: 2px solid #caa847;
+    transition: .3s ease-in-out;
+}
+.timeline-item:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 12px;
+    height: 12px;
+    top: 20px;
+    left: -29px;
+    border: 2px solid #caa847;
+    z-index: 2;
+}
+.timeline-item .item-title {
+    display: block;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.2em;
+    color: #333;
+}
+.timeline-item .item-period {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1.2em;
+    color: #caa847;
+    margin-bottom: 8px;
+}
+.timeline-item .item-small {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1.2em;
+    color: #333;
+    margin-left: 5px;
+    margin-bottom: 8px;
+    padding-left: 8px;
+    border-left: 1px solid #e0e0e0;
+}
+.timeline-item:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background-color: #caa847;
+    border-radius: 10px;
+    width: 29px;
+    height: 2px;
+    top: 25px;
+    left: -29px;
+    z-index: 1;
+}
+/* My Resume Part css End */
 
-/* Our Team Part css End */
+/* Footer part css start */
+.footer-head{
+    text-align: center;
+}
+.footer-head h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: teal;
+}
+.footer-head h1{
+    color: #4240db;
+}
+.align{
+    width: 100%;
+    display: inline;
+    position: relative;
+    right: -45%;
+}
+.footer-icon{
+    float: left;
+    padding: 15px 5px;
+    margin-bottom: 50px;
+    height: 35px;
+    width: 35px;
+}
+.footer-icon img{
+    width: 100%;
+}
+/* Footer part css end */
